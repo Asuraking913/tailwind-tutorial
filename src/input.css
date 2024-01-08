@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+.header-bg {
+  background-color: #5e5a5a;
+}
+
+.font2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
