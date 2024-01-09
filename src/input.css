@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "poppins";
+  src: url("../Poppins/Montserrat-Regular.ttf");
+}
+
 .header-bg {
   background-color: #5e5a5a;
 }
 
 .font2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.color1 {
+  background-color: whitesmoke;
 }
