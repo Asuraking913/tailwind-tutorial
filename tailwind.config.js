@@ -4,5 +4,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+
+  corePlugins: {
+    textShadow: true,
+  },
   plugins: [],
 };

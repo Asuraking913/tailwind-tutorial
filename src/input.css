@@ -19,3 +19,14 @@
 .color1 {
   background-color: whitesmoke;
 }
+
+.img1 {
+  background-image: url("../images/person.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.text1 {
+  text-shadow: 2px 2px 3px black;
+}
