@@ -35,15 +35,6 @@
   background-position: right;
 }
 
-.before2 {
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-image: url("../build/images/bullet.svg");
-  background-size: contain;
-  position: absolute;
-}
-
 .text1 {
   text-shadow: 2px 2px 3px black;
 }
@@ -54,4 +45,19 @@
 
 .trans {
   transition: 1.2s;
+}
+
+.listb {
+  position: relative;
+}
+
+.listb::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-image: url("../build/images/bullet.svg");
+  background-size: contain;
+  position: absolute;
+  left: -2em;
+  margin-right: 0.5em;
 }
