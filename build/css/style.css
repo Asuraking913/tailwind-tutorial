@@ -786,6 +786,17 @@ video {
   position: relative;
 }
 
+.img5::before {
+  content: "";
+  background-image: url("../build/images/bullet.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -2em;
+  background-color: red;
+}
+
 .hover\:text-slate-400:hover {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
