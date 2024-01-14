@@ -558,6 +558,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -759,13 +763,6 @@ video {
   letter-spacing: 0.1em;
 }
 
-.before::before {
-  content: "";
-  background-image: url(../build/images/bullet.svg);
-  position: absolute;
-  background-size: cover;
-}
-
 .color1 {
   background-color: whitesmoke;
 }
@@ -775,6 +772,15 @@ video {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.before2 {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../build/images/bullet.svg");
+  background-size: contain;
+  position: absolute;
 }
 
 .text1 {
