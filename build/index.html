@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Learn tailwind</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -11,9 +11,20 @@
   </head>
   <body class="min-h-screen">
     <header class="text-white bg-blue-600">
-      <div class="p-4 flex items-center justify-between">
-        <a href="" class="text-3xl font-sans font-bold">XH Tales</a>
-        <i class="fa-solid fa-bars text-3xl"></i>
+      <div class="p-2 flex items-center justify-between">
+        <a href="" class="text-3xl font-sans font-bold hover:underline trans"
+          >XH Tales</a
+        >
+        <button class="sm:hidden">
+          <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+        </button>
+        <nav class="hidden sm:flex gap-10 p-4 text-xl font-medium">
+          <a href="#" class="hover:text-slate-400 trans text2">Home</a>
+          <a href="#" class="hover:text-slate-500 trans text2">Pricing</a>
+          <a href="#" class="hover:text-slate-500 trans text2">Features</a>
+          <a href="#" class="hover:text-slate-500 trans text2">Contact us</a>
+          <a href="#" class="hover:text-slate-500 trans text2">About</a>
+        </nav>
       </div>
       <div class="p-4 color1 flex gap-8 mx-auto">
         <input
@@ -35,10 +46,89 @@
         </div>
       </section>
       <section class="p-4">
-        <h1 class="capitalize text-4xl font-serif font-bold">
+        <h1 class="capitalize text-4xl fonttimes font-bold mt-2">
           Hero of hearts <span class="block sm:inline">chapter 5619</span>
         </h1>
-        <p>july 15, 2023 by <a href="">mathin king</a></p>
+        <p class="capitalize font-sans text-xl mt-4">
+          july 15, 2023 by
+          <a href="" class="text-blue-600 font-bold">mathin king.</a>
+        </p>
+        <p class="capitalize mt-4 text-xl fonttimes">
+          read <span class="font-bold">chapter 5690</span> of the novel
+          <span class="block sm:inline font-bold">hero of hearts</span> free
+          online
+        </p>
+        <div class="flex flex-col gap-2 sm:gap-8 sm:flex-row">
+          <p>
+            <a
+              href=""
+              class="capitalize mt-4 p-4 bg-blue-600 flex items-center justify-center fonttimes text-white font-bold text-2xl sm:w-52 sm:rounded-3xl"
+              >All chapters</a
+            >
+          </p>
+          <p>
+            <a
+              href=""
+              class="capitalize mt-4 p-4 bg-blue-600 fonttimes flex items-center justify-center text-white font-bold text-2xl sm:w-52 sm:rounded-3xl"
+              >chapter list</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="p-4 my-4">
+        <h1 class="text-2xl font-medium font2">Chapter 5619</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          dolorem repellat vitae voluptatibus, eos sed saepe non qui placeat
+          pariatur consectetur enim quod voluptatem vero facilis mollitia
+          aliquam amet nobis. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Laudantium optio saepe amet dolor animi dolorum eum possimus,
+          quibusdam totam, sapiente aspernatur, vitae pariatur aperiam veniam?
+          Illum sapiente repellat unde. Accusantium. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit reprehenderit perspiciatis incidunt
+          voluptate excepturi, nemo quaerat consequatur tenetur natus harum quos
+          quis fuga suscipit recusandae ea blanditiis laborum sed adipisci
+          officiis quas a assumenda quidem? Aliquam rem enim quam laborum ut.
+          Animi maxime eum quas non? Nostrum doloribus earum unde?Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Enim beatae quia
+          voluptatum vitae labore aliquid distinctio. Quas, pariatur fuga eaque
+          alias ad deserunt laborum accusantium sequi consequatur ducimus
+          distinctio exercitationem?Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Autem corporis eveniet veniam aliquid, recusandae
+          porro perspiciatis ullam necessitatibus nulla blanditiis explicabo
+          praesentium impedit dolore omnis exercitationem deserunt provident
+          reiciendis dicta saepe optio earum eius consequatur? Quaerat neque
+          sunt numquam maxime!
+        </p>
+        <p class="mt-6">
+          <a
+            href=""
+            class="capitalize mt-4 p-4 bg-blue-600 fonttimes flex items-center justify-center text-white font-bold text-2xl sm:w-52 sm:rounded-3xl"
+            >next chapter</a
+          >
+        </p>
+        <div class="mt-6">
+          <p
+            class="capitalize text-gray-500 text-2xl spacing fonttimes font-medium">
+            the charismatic wade novel alternative....
+          </p>
+
+          <ul>
+            <li class="relative">
+              <a
+                href="#"
+                class="before capitalize text-2xl text-blue-600 fonttimes"
+                >hero of hearts</a
+              >
+            </li>
+            <li>
+              <a href="#" class="capitalize text-2xl text-blue-600 fonttimes"
+                >hero of hearts, heroes of hearts, heroes of hearts PDF, heros
+                of hearts online</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>

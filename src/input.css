@@ -11,9 +11,24 @@
   background-color: #5e5a5a;
 }
 
+.fonttimes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .font2 {
   font-family: sans-serif;
   font-weight: bold;
+}
+
+.spacing {
+  letter-spacing: 0.1em;
+}
+
+.before::before {
+  content: "";
+  background-image: url(../build/images/bullet.svg);
+  position: absolute;
+  background-size: cover;
 }
 
 .color1 {
@@ -29,4 +44,12 @@
 
 .text1 {
   text-shadow: 2px 2px 3px black;
+}
+
+.text2:hover {
+  text-shadow: 2px 2px 3px black;
+}
+
+.trans {
+  transition: 1.2s;
 }
