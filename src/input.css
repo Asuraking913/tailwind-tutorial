@@ -50,14 +50,3 @@
 .listb {
   position: relative;
 }
-
-.listb::before {
-  content: "";
-  height: 20px;
-  width: 20px;
-  background-image: url("../build/images/bullet.svg");
-  background-size: contain;
-  position: absolute;
-  left: -2em;
-  margin-right: 0.5em;
-}
