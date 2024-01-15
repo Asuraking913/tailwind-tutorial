@@ -46,15 +46,3 @@
 .trans {
   transition: 1.2s;
 }
-
-.img5::before {
-  content: "";
-  background-image: url("../build/images/bullet.svg");
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 0;
-  left: -2em;
-  background-color: red;
-}
