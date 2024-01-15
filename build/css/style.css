@@ -594,10 +594,6 @@ video {
   height: 100vh;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -782,10 +778,6 @@ video {
   transition: 1.2s;
 }
 
-.listb {
-  position: relative;
-}
-
 .img5::before {
   content: "";
   background-image: url("../build/images/bullet.svg");
@@ -793,6 +785,7 @@ video {
   width: 20px;
   height: 20px;
   position: absolute;
+  top: 0;
   left: -2em;
   background-color: red;
 }
