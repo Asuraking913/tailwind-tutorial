@@ -20,6 +20,10 @@
   font-weight: bold;
 }
 
+.font1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
 .spacing {
   letter-spacing: 0.1em;
 }
@@ -45,4 +49,8 @@
 
 .trans {
   transition: 1.2s;
+}
+
+.grad {
+  background-image: linear-gradient(gray, white);
 }

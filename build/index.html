@@ -162,7 +162,7 @@
       <div class="max-w-4xl h-4 bg-gray-400"></div>
 
       <div class="flex flex-col p-4">
-        <form action="">
+        <form action="" class="flex flex-col justify-start gap-2">
           <label
             for="comment"
             class="text-black block text-4xl fonttimes font-medium capitalize"
@@ -174,9 +174,53 @@
             cols="30"
             rows="10"
             class="border-2 border-gray-400 w-full sm:w-4/5"></textarea>
-          <input type="text" placeholder="Name" class="p-2 fonttimes" />
+          <input
+            type="text"
+            placeholder="Email**"
+            class="p-2 block fonttimes text-2xl border-2 border-gray-400 sm:w-4/5" />
+          <input
+            type="text"
+            placeholder="Website**"
+            class="p-2 block fonttimes text-2xl border-2 border-gray-400 sm:w-4/5" />
+          <p class="capitalize text-xl font-medium fonttimes">
+            <input type="checkbox" name="" id="check1" />
+            <label for="check1"
+              >Save my name, emails, and website in this browser for the next
+              time i comment</label
+            >
+          </p>
+          <p class="capitalize text-xl font-medium fonttimes">
+            <input type="checkbox" name="" id="check1" />
+            <label for="check2"
+              >Notify me for any follow up comments by email</label
+            >
+          </p>
+          <p class="capitalize text-xl font-medium fonttimes">
+            <input type="checkbox" name="" id="check1" />
+            <label for="check3">Notify me of new posts by email</label>
+          </p>
+          <p>
+            <button
+              class="p-4 bg-blue-600 text-white font1 m-2 capitalize text-2xl">
+              post comment
+            </button>
+          </p>
         </form>
       </div>
     </main>
+
+    <footer>
+      <p>
+        <select
+          name="lang"
+          id="lang"
+          class="grad p-4 border border-gray-300 m-2">
+          <option value="English">English</option>
+          <option value="Russian">Russian</option>
+          <option value="Mandarin">Mandarin</option>
+          <option value="sdfsfdsf">sdfsfdsf</option>
+        </select>
+      </p>
+    </footer>
   </body>
 </html>
