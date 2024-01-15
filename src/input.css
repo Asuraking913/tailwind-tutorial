@@ -54,3 +54,8 @@
 .grad {
   background-image: linear-gradient(gray, white);
 }
+
+.fonth {
+  font-size: 1.6rem;
+  text-align: center;
+}
